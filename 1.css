@@ -10,3 +10,15 @@
     text-align: left;
     padding: 48px;
 }
+.nav-item:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    padding-bottom: 0.5rem;
+}
+.ml-12{
+    margin-left: 12rem!important;
+}
+.underline{
+    text-decoration: underline;
+}

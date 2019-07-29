@@ -4,21 +4,20 @@
     <title>Microsoft Surface</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="1.css">
     <script src="1.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="jquery/jquery-3.3.1.min.js"></script>
     <script src="popper/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.css">
 </head>
 <body>
 <div class="container-fluid">
-    <nav class="navbar navbar-expand-sm navbar-light bg-white mx-4">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white mx-5">
         <a href="#" class="navbar-brand">
             <img class="img-fluid" width="108px" height="23px" src="./picture/brand.png" alt="Microsoft brand">
         </a>
-        <a class="navbar-brand" href="#">Surface</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
                 aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -26,6 +25,9 @@
         </button>
         <div class="collapse navbar-collapse small" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bold h6 mb-0">Surface</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
                        data-toggle="dropdown"
@@ -64,12 +66,42 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">Surface for Business</a>
                 </li>
+                <li class="nav-item dropdown ml-12">
+                    <a class="nav-link dropdown-toggle" href="#" id="all_microsoft" data-toggle="dropdown">
+                        All Microsoft
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item small" href="#">Softwares</a>
+                        <a class="dropdown-item small" href="#">PCs & Devices</a>
+                        <a class="dropdown-item small" href="#">Entertainment</a>
+                        <a class="dropdown-item small" href="#">Business</a>
+                        <a class="dropdown-item small" href="#">Developer & IT</a>
+                        <a class="dropdown-item small" href="#">Other</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-user-plus"></i>
+                    </a>
+                </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+
+            <!--            <form class="form-inline my-2 my-lg-0">-->
+            <!--                -->
+            <!--                <input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+            <!--                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            <!--            </form>-->
         </div>
     </nav>
 
@@ -117,6 +149,39 @@
     </div>
 
 
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-expand-sm">
+        <ul class="navbar-nav flex-row justify-content-sm-between w-100 font-weight-bold" >
+            <li class="nav-item">
+                <a href="#" class="nav-link" style="color: darkblue!important;">
+                    <i class="fas fa-laptop"></i>&nbsp;<span class="underline">COMPARE DEVICES</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"style="color: darkblue!important;">
+                    <i class="far fa-hand-point-up"></i>
+                    <span class="underline">
+                            HELP ME CHOOSE
+                        </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"style="color: darkblue!important;">
+                    <i class="fas fa-headphones"></i> <span class="underline">ACCESSORIES</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"style="color: darkblue!important;">
+                    <i class="far fa-handshake"></i>
+                    <span class="underline">DEALS</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"style="color: darkblue!important;">
+                    <i class="fas fa-clipboard-list"></i>
+                    <span class="underline">ALL ACCESS</span></a>
+            </li>
+        </ul>
+    </nav>
 </div>
 </body>
 </html>
