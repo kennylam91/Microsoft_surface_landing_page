@@ -13,175 +13,181 @@
     <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.css">
 </head>
 <body>
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-sm navbar-light bg-white mx-5">
-        <a href="#" class="navbar-brand">
-            <img class="img-fluid" width="108px" height="23px" src="./picture/brand.png" alt="Microsoft brand">
-        </a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse small" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a href="#" class="nav-link font-weight-bold h6 mb-0">Surface</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
-                       data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Computers</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item small" href="#">Surface Pro 6</a>
-                        <a class="dropdown-item small" href="#">Surface Laptop 2</a>
-                        <a class="dropdown-item small" href="#">Surface Go</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="accessories" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Accessories</a>
-                    <div class="dropdown-menu" aria-labelledby="accessories">
-                        <a class="dropdown-item small" href="#">Surface Headphones</a>
-                        <a class="dropdown-item small" href="#">Surface Pro Accessories</a>
-                        <a class="dropdown-item small" href="#">Surface Laptop Accessories</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Where to Buy</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="shopnow" data-toggle="dropdown">
-                        Shop now
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item small" href="#">Surface deals</a>
-                        <a class="dropdown-item small" href="#">Surface Bundles</a>
-                        <a class="dropdown-item small" href="#">All Surface devices</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Support</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Surface for Business</a>
-                </li>
-                <li class="nav-item dropdown ml-12">
-                    <a class="nav-link dropdown-toggle" href="#" id="all_microsoft" data-toggle="dropdown">
-                        All Microsoft
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item small" href="#">Softwares</a>
-                        <a class="dropdown-item small" href="#">PCs & Devices</a>
-                        <a class="dropdown-item small" href="#">Entertainment</a>
-                        <a class="dropdown-item small" href="#">Business</a>
-                        <a class="dropdown-item small" href="#">Developer & IT</a>
-                        <a class="dropdown-item small" href="#">Other</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-user-plus"></i>
-                    </a>
-                </li>
+<div class="container">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img class="img-fluid" width="108px" height="23px" src="./picture/brand.png" alt="Microsoft brand">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse small" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link font-weight-bold h6 mb-0">Surface</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Computers</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item small" href="#">Surface Pro 6</a>
+                            <a class="dropdown-item small" href="#">Surface Laptop 2</a>
+                            <a class="dropdown-item small" href="#">Surface Go</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown hidden_on_md">
+                        <a class="nav-link dropdown-toggle" href="#" id="accessories" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Accessories</a>
+                        <div class="dropdown-menu" aria-labelledby="accessories">
+                            <a class="dropdown-item small" href="#">Surface Headphones</a>
+                            <a class="dropdown-item small" href="#">Surface Pro Accessories</a>
+                            <a class="dropdown-item small" href="#">Surface Laptop Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item hidden_on_md">
+                        <a href="#" class="nav-link">Where to Buy</a>
+                    </li>
+                    <li class="nav-item dropdown hidden_on_md">
+                        <a class="nav-link dropdown-toggle" href="#" id="shopnow" data-toggle="dropdown">
+                            Shop now
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item small" href="#">Surface deals</a>
+                            <a class="dropdown-item small" href="#">Surface Bundles</a>
+                            <a class="dropdown-item small" href="#">All Surface devices</a>
+                        </div>
+                    </li>
+                    <li class="nav-item hidden_on_lg">
+                        <a href="#" class="nav-link">Support</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="more" data-toggle="dropdown">
+                            More
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item small" href="#">Surface for Business</a>
+                            <a href="#" class="nav-link ">Support</a>
 
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown ml-xl-4 ml-lg-4 ml-md-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="all_microsoft" data-toggle="dropdown">
+                            All Microsoft
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item small" href="#">Softwares</a>
+                            <a class="dropdown-item small" href="#">PCs & Devices</a>
+                            <a class="dropdown-item small" href="#">Entertainment</a>
+                            <a class="dropdown-item small" href="#">Business</a>
+                            <a class="dropdown-item small" href="#">Developer & IT</a>
+                            <a class="dropdown-item small" href="#">Other</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="hidden_on_lg">Search</span> &nbsp;<i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="hidden_on_lg">Cart</span> &nbsp; <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">
+                            <span class="hidden_on_lg">Sign in</span> &nbsp;<i class="fas fa-user-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- SLIDE-->
+        <div id="demo" class="container-fluid carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
             </ul>
+            <div class="carousel-inner">
 
-            <!--            <form class="form-inline my-2 my-lg-0">-->
-            <!--                -->
-            <!--                <input class="form-control mr-sm-2" type="text" placeholder="Search">-->
-            <!--                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-            <!--            </form>-->
+                <div class="carousel-item active">
+                    <img src="./picture/Surface_Home_Carousel_Hero_BTS-V1.jpg" alt="Hero_BTS-V1" class="img-fluid "
+                         width="100%">
+                    <div class="carousel-caption hidden_on_md text-black-50">
+                        <p class="carousel-caption-header">Students and parents save up to 10%</p>
+                        <p>Get back-to-school ready with select Surface and accessories.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./picture/Surface_Home_Carousel_Hero_Pride-V2.jpg" alt="Hero_Pride-V2" width="100%">
+                    <div class="carousel-caption hidden_on_md text-black-50">
+                        <p class="carousel-caption-header">Make a more colorful impact</p>
+                        <p>Celebrate Pride with the limited-edition Surface Pro Pride Type Cover and Pride Skin. We take
+                            action by donating to LGBTQI+ nonprofits.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./picture/Surface_Panel1_FullBleed_BackToSchool_V1.jpg" alt="BackToSchool" width="100%">
+                    <div class="carousel-caption hidden_on_md">
+                        <p class="carousel-caption-header">A touch beyond ordinary</p>
+                        <p>Meet Surface Laptop 2</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
-    </nav>
 
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img src="./picture/Surface_Home_Carousel_Hero_BTS-V1.jpg" alt="Hero_BTS-V1" width="100%" height="500">
-                <div class="carousel-caption-left">
-                    <h1>Students and parents save up to 10%</h1>
-                    <p>Get back-to-school ready with select Surface and accessories.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./picture/Surface_Home_Carousel_Hero_Pride-V2.jpg" alt="Hero_Pride-V2" width="100%"
-                     height="500">
-                <div class="carousel-caption-left">
-                    <h1>Make a more colorful impact</h1>
-                    <p>Celebrate Pride with the limited-edition Surface Pro Pride Type Cover and Pride Skin. We take
-                        action by donating to LGBTQI+ nonprofits.
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./picture/Surface_Panel1_FullBleed_BackToSchool_V1.jpg" alt="BackToSchool" width="100%"
-                     height="500">
-                <div class="carousel-caption-left text-white">
-                    <h1>A touch beyond ordinary</h1>
-                    <p>Meet Surface Laptop 2</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
     </div>
 
-
-</div>
-
-<div class="container">
-    <nav class="navbar navbar-expand-sm">
-        <ul class="navbar-nav flex-row justify-content-sm-between w-100 font-weight-bold" >
-            <li class="nav-item">
-                <a href="#" class="nav-link" style="color: darkblue!important;">
-                    <i class="fas fa-laptop"></i>&nbsp;<span class="underline">COMPARE DEVICES</span></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"style="color: darkblue!important;">
-                    <i class="far fa-hand-point-up"></i>
-                    <span class="underline">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <ul class="navbar-nav flex-lg-row justify-content-sm-between w-100 font-weight-bold">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-center px-sm-0" style="color: darkblue!important;">
+                        <i class="fas fa-laptop"></i>&nbsp;<span class="sub_menu">COMPARE DEVICES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-center px-sm-0" style="color: darkblue!important;">
+                        <i class="far fa-hand-point-up"></i>&nbsp;
+                        <span class="sub_menu">
                             HELP ME CHOOSE
                         </span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"style="color: darkblue!important;">
-                    <i class="fas fa-headphones"></i> <span class="underline">ACCESSORIES</span></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"style="color: darkblue!important;">
-                    <i class="far fa-handshake"></i>
-                    <span class="underline">DEALS</span></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"style="color: darkblue!important;">
-                    <i class="fas fa-clipboard-list"></i>
-                    <span class="underline">ALL ACCESS</span></a>
-            </li>
-        </ul>
-    </nav>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-center px-sm-0" style="color: darkblue!important;">
+                        <i class="fas fa-headphones"></i> &nbsp;
+                        <span class="sub_menu">ACCESSORIES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-center px-sm-0" style="color: darkblue!important;">
+                        <i class="far fa-handshake"></i>&nbsp;
+                        <span class="sub_menu">DEALS</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-center px-sm-0" style="color: darkblue!important;">
+                        <i class="fas fa-clipboard-list"></i>&nbsp;
+                        <span class="sub_menu">ALL ACCESS</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </div>
 </body>
 </html>

@@ -1,10 +1,7 @@
 *{padding:0; margin:0;}
-.carousel-caption-left{
-    width: 500px;
-    height: 327px;
+.carousel-caption{
     position: absolute;
     right: 15%;
-    bottom: 67px;
     left: 8%;
     z-index: 10;
     text-align: left;
@@ -19,6 +16,79 @@
 .ml-12{
     margin-left: 12rem!important;
 }
-.underline{
+.sub_menu{
     text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .hidden_on_xl{
+        display:none;
+    }
+    .carousel-caption{
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        right: 15%;
+        left: 8%;
+        z-index: 10;
+        text-align: left;
+        padding: 60px;
+        margin-bottom: 60px;
+    }
+    .carousel-caption-header{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+    .slide img{
+        height:500px;
+    }
+}
+@media(max-width:1200px){
+    .hidden_on_lg{
+        display:none;
+    }
+    .carousel-caption{
+        bottom: 0px;
+        padding: 100px 10px;
+        width: 380px;
+    }
+    .carousel-caption-header{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        left: 0px;
+    }
+
+
+
+}
+
+
+@media (max-width: 992px) {
+    .hidden_on_md{
+        display: none;
+    }
+    .carousel-caption{
+        position: static;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 30px;
+        background-color: #e1e1e1;
+        color: black!important;
+        height: 200px;
+    }
+    .sub_menu{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .sub_menu{
+        font-size: 0.65rem;
+        text-align: center;
+    }
 }
